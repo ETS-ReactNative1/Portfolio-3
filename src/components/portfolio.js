@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+
 import PortfolioHeader from '../components/portfolio-header';
+import ProjectSection from '../components/project-section';
+
 import '../styles/portfolio.css';
 
 class Portfolio extends Component {
@@ -8,7 +11,7 @@ class Portfolio extends Component {
       <div className="portfolio">
         <PortfolioHeader />
         <main role="main" className="portfolio-main">
-          <p className="portfolio-intro">ABOUT ME</p>
+          <ProjectSection />
         </main>
       </div>
     );
