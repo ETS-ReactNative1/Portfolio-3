@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+// import { Link } from 'react-router-dom';
 
-import AboutMe from '../components/about-me';
+// import { changeLocation } from '../actions/nav-actions';
 
 import logo from '../images/JR-logo.png';
 import '../styles/portfolio-header.css';
@@ -9,14 +11,43 @@ class PortfolioHeader extends Component {
   render() {
     return (
       <header role="banner" className="portfolio-header">
-        <img src={logo} className="portfolio-logo" alt="logo" />
-        <h1 className="portfolio-title">Hello, my name is Jonathan Riggs</h1>
-        <nav className="portfolio-header-nav">
-          <AboutMe />
-        </nav>
+        <div className="PH-logo-nav">
+          <img src={logo} className="PH-logo" alt="logo" />
+          <nav className="PH-nav">
+            <button
+              className="PH-work-button"
+              onClick={() => this.props.history.push('/work/')}
+            >
+              work
+            </button>
+            <button
+              className="PH-play-button"
+              onClick={() => this.props.history.push('/play/')}
+            >
+              play
+            </button>
+            <button
+              className="PH-about-button"
+              onClick={() => this.props.history.push('/about/')}
+            >
+              about
+            </button>
+            <button
+              className="PH-resume-button"
+              onClick={() => this.props.history.push('/resume/')}
+            >
+              resume
+            </button>
+          </nav>
+        </div>
+        <h1 className="PH-title">Hello, my name is Jonathan Riggs</h1>
       </header>
     );
   }
 }
 
-export default PortfolioHeader;
+const mapStateToProps = state => ({
+  location: state.navRed.location
+});
+
+export default connect(mapStateToProps)(PortfolioHeader);

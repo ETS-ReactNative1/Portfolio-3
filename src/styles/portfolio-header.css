@@ -5,16 +5,42 @@
   color: white;
 }
 
-.portfolio-logo {
-  animation: portfolio-logo-spin infinite 5s linear;
-  height: 80px;
+.PH-logo-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
-.portfolio-title {
-  font-size: 1.5em;
+.PH-logo {
+  animation: portfolio-logo-spin infinite 30s linear;
+  border: 4px solid orange;
+  height: 80px;
 }
 
 @keyframes portfolio-logo-spin {
   from { transform: rotateY(360deg); }
   to { transform: rotateY(0deg); }
 }
+
+.PH-nav {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+}
+/* 
+.PH-work-link {
+  padding: 0 -10px;
+  border: 2px solid green;
+} */
+
+/* .PH-nav button {
+  color: white;
+  background-color: transparent;
+  margin: 0 10px
+} */
+
+.PH-title {
+  font-size: 1.5em;
+}
+
