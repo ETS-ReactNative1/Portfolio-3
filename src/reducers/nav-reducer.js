@@ -1,7 +1,7 @@
 import { CHANGE_LOCATION } from '../actions/nav-actions';
 
 const initalState = {
-  location: '/work'
+  location: '/projects'
 };
 
 const navReducer = (state = initalState, action) => {

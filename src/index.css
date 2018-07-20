@@ -1,5 +1,173 @@
-body {
-  margin: 0;
+* {
+  box-sizing: border-box;
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  background-color: #000060;
+  color: #A8A8A8;
+  z-index: 9999999;
+}
+
+.logo {
+  animation: logo-spin infinite 10s linear;
+  border: 2px solid red;
   padding: 0;
+  height: 40px;
+  max-width: 80px
+}
+
+@keyframes logo-spin {
+  from { transform: rotateY(360deg); }
+  to { transform: rotateY(0deg); }
+}
+nav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #A8A8A8;
+  padding:10px;
+}
+
+a:hover {
+  color: red
+}
+
+body {
   font-family: sans-serif;
+  color: #252525;
+}
+
+main {
+  margin-top:52px;
+  background-color: #D8D8F0;
+}
+
+.box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.box-image {
+  max-width: 50%;
+  
+  margin: 0 25%;
+}
+
+.box-content {
+  padding: 20px;
+}
+
+.box-content h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color:#252525;
+}
+
+.box-content h3:hover {
+  color:red;
+}
+
+.box-content p {
+  margin: 0.5em 0;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000060;
+  color: #A8A8A8;
+  margin-top: 8px;
+}
+
+footer h3 {
+  font-size: 120%;
+  text-decoration: underline;
+}
+
+/* Grid measurements:
+ *
+ *   960px wide including 12 gutters (half gutters on both edges)
+ *
+ *   60px columns (12)
+ *   20px gutters (two half-gutters + 11 full gutters, so 12 total)
+ *
+ *
+ *   For smaller screens, we always want 20px of padding on either side,
+ *   so 960 + 20 + 20 => 1000px
+ *
+ **/
+.row {
+  max-width: 1600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* margin: 0 auto; */
+}
+
+/* Clearfix */
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+.col-3, .col-4, .col-6, .col-12 {
+  float: left;
+
+  /* Gutters:
+   * Each column is padded by half-a-gutter on each side,
+   *
+   * Half a gutter is 10px, 10/960 (context) = 1.041666%
+   *
+   */
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+
+/* Mobile defaults */
+.col-3, .col-4, .col-6, .col-12 {
+  width: 100%;
+}
+
+
+/* Non-mobile, grid */
+@media only screen and (min-width: 640px) {
+  /* 3 columns, 3/12 in % */
+  .col-3 {
+    width: 25%;
+  }
+
+  /* 4 columns, 4/12 in % */
+  .col-4 {
+    width: 33.333333%;
+  }
+
+  /* 6 columns, 6/12 in % */
+  .col-6 {
+    width: 50%;
+  }
+
+  /* 12 columns, 12/12 in % */
+  .col-12 {
+    width: 100%;
+  }
+
+  nav {
+    /* becomes a hamburger menu or something */
+  }
 }

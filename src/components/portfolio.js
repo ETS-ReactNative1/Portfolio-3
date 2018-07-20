@@ -1,37 +1,30 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-// import { connect } from 'react-redux';
 
-import PortfolioHeader from '../components/portfolio-header';
+import Header from '../components/header';
 import About from '../components/about';
-import Play from '../components/play';
-import Work from '../components/work';
+import Projects from '../components/projects';
 import Resume from '../components/resume';
-import PortfolioFooter from '../components/portfolio-footer';
-import ProjectGameStrat from '../components/project-gameStrat';
+import Footer from '../components/footer';
+import GameStrat from '../components/gameStrat';
 
 import '../styles/portfolio.css';
 
 class Portfolio extends Component {
   render() {
     return (
-      <div className="portfolio">
-        <Route path="/" component={PortfolioHeader} />
-        <main role="main" className="portfolio-main">
-          <Route exact path="/work" component={Work} />
-          <Route exact path="/work/gameStrat" component={ProjectGameStrat} />
-          <Route exact path="/play" component={Play} />
+      <React.Fragment>
+        <Route path="/" component={Header} />
+        <main role="main" className="row">
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/projects/gameStrat" component={GameStrat} />
           <Route exact path="/about" component={About} />
           <Route exact path="/resume" component={Resume} />
         </main>
-        <Route path="/" component={PortfolioFooter} />
-      </div>
+        <Route path="/" component={Footer} />
+      </React.Fragment>
     );
   }
 }
 
-// const mapStateToProps = state => ({
-//   location: state.navRed.location
-// });
-// connect(mapStateToProps)
 export default Portfolio;
