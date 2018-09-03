@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Link, Redirect } from 'react-router-dom';
+// import '../styles/portfolio-header.css';
 
-import logo from '../images/JR-logo.png';
-import '../styles/portfolio-header.css';
-
-class PortfolioHeader extends Component {
-  changePage() {
-    return <Redirect to="about/" />;
-  }
+class LandingPage extends Component {
   render() {
     return (
-      <header role="banner" className="row">
-        <img src={logo} className="logo" alt="logo" />
+      <header role="banner" className="header-bar">
+        <img className="logo" src={require('../assets/JR-logo.svg')} alt="logo" />
+        <h2>Jonathan Riggs</h2>
         <nav className="nav-links">
-          <Link to="/projects/">Projects</Link>
-          <Link to="/about/">About</Link>
-          <Link to="/resume/">Resume</Link>
+          <a href="https://github.com/BuddhaL1T3">
+            <img className="contact-thumbnail GH" src={require('../assets/contact/gitHub.svg')} alt="GitHub logo" />
+          </a>
+          <a href="https://www.linkedin.com/in/jonathan-riggs-34898476/">
+            <img className="contact-thumbnail LI" src={require('../assets/contact/linkedIn.svg')} alt="LinkedIn logo" />
+          </a>
+          <a href="mailto:jmriggs75@gmail.com">
+            <img className="contact-thumbnail M" src={require('../assets/contact/mail.svg')} alt="Mail logo" />
+          </a>
         </nav>
       </header>
     );
@@ -27,4 +28,4 @@ const mapStateToProps = state => ({
   location: state.navRed.location
 });
 
-export default connect(mapStateToProps)(PortfolioHeader);
+export default connect(mapStateToProps)(LandingPage);
