@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-import JonathanRiggs from './components/jonathan-riggs';
+import Portfolio from './components/portfolio';
 
-ReactDOM.render(<JonathanRiggs />, document.getElementById('root'));
+ReactDOM.render(<Portfolio />, document.getElementById('root'));
 registerServiceWorker();

@@ -1,31 +1,27 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-// import '../styles/portfolio-header.css';
+import Scrollchor from 'react-scrollchor';
 
-class LandingPage extends Component {
+class Header extends Component {
   render() {
     return (
       <header role="banner" className="header-bar">
         <img className="logo" src={require('../assets/JR-logo.svg')} alt="logo" />
-        <h2>Jonathan Riggs</h2>
-        <nav className="nav-links">
-          <a href="https://github.com/BuddhaL1T3">
-            <img className="contact-thumbnail GH" src={require('../assets/contact/gitHub.svg')} alt="GitHub logo" />
-          </a>
-          <a href="https://www.linkedin.com/in/jonathan-riggs-34898476/">
-            <img className="contact-thumbnail LI" src={require('../assets/contact/linkedIn.svg')} alt="LinkedIn logo" />
-          </a>
-          <a href="mailto:jmriggs75@gmail.com">
-            <img className="contact-thumbnail M" src={require('../assets/contact/mail.svg')} alt="Mail logo" />
-          </a>
+        <div className="header-title">
+          <h1>Jonathan Riggs</h1>
+          <h2> | Full Stack Developer</h2>
+        </div>
+        <nav className="about">
+          <Scrollchor to="#about">About</Scrollchor>
+          <Scrollchor to="projects" animate={{ duration: 800 }}>
+            Projects
+          </Scrollchor>
+          <Scrollchor to="#footer" animate={{ duration: 1000 }}>
+            Contact
+          </Scrollchor>
         </nav>
       </header>
     );
   }
 }
 
-const mapStateToProps = state => ({
-  location: state.navRed.location
-});
-
-export default connect(mapStateToProps)(LandingPage);
+export default Header;

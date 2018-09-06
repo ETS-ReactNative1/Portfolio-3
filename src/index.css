@@ -9,17 +9,24 @@ body {
   color: #252525; 
   background-color: #D8D8F0;
 }
+
+a:hover,
+.link:hover {
+  transform: scale(1.1);
+}
  
 .header-bar {
+  background-color: #000060;
   display: flex;
+  color: #D8D8F0;
   flex-flow: row wrap;
   align-items: center;
-  margin: 30px 60px;
+  padding: 30px 60px;
 }
 
 .logo {
   flex: 1 1 auto; 
-  max-width: 45px;
+  max-width: 100px;
 }
 
 .nav-links {
@@ -35,10 +42,14 @@ body {
 }
 
 .skills {
-  /* display: flex; */
-  /* flex-flow: row wrap; */
+  display: flex;
+  flex-flow: row;
+  /* display: inline-block; */
+  /* height: 500px; */
+  /* width: 50px; */
+}
+.svgs {
   height: 50px;
-  width: 50px;
 }
 
 .tech-thumbnail {
@@ -62,7 +73,7 @@ main {
 }
 
 h3 {
-  color:#252525;
+  color: #252525;
 }
 
 .projects {
@@ -113,11 +124,9 @@ h3 {
   flex-flow: column;
 }
 
-.tech-stack{
-  /* display: flex;
-  flex-flow: row; */
-  height:25px;
-  width:25px;
+.tech-stack .svgs {
+  height: 25px;
+  width: 25px;
 }
 
 .description-divider {
@@ -152,14 +161,23 @@ h3 {
 }
 
 .footer {
-  margin: 50px 0;
-}
-
-.footer {
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; 
+  background-color: #000060;
+  color:#D8D8F0;
+  margin-top: 40px;
+  padding: 50px 0 25px 0;
+}
+
+.footer h2{
+  margin-bottom: 30px;
+}
+
+.phone {
+  font-size: 1.5em;
+  font-weight: 600px;
 }
 
 .contact-info {
