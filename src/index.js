@@ -1,21 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { Provider } from 'react-redux';
-import { BrowserRouter as Router } from 'react-router-dom';
-
-import store from './store';
-
-import './index.css';
-import Portfolio from './components/portfolio';
 import registerServiceWorker from './registerServiceWorker';
+import './index.css';
 
-ReactDOM.render(
-  <Provider store={store}>
-    <Router>
-      <Portfolio />
-    </Router>
-  </Provider>,
-  document.getElementById('root')
-);
+import JonathanRiggs from './components/jonathan-riggs';
+
+ReactDOM.render(<JonathanRiggs />, document.getElementById('root'));
 registerServiceWorker();
