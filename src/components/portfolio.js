@@ -11,9 +11,24 @@ import { acceptableLosses, gameStrat, cartasContraEspañol } from './prroject-da
 // import '../styles/work.css';
 
 // to do...
-// create a hamburger menu for the links for mobile
-// tweak header layout for mobile
-//
+// create a hamburger menu for the links for mobile/tweak header layout for mobile
+// make footer svgs larger
+// upload images for each project and get a description
+// color/theme/segmentation
+
+// hover effect on project?
+
+{
+  /* <svg viewBox="0 0 200 100" preserveAspectRatio="none">
+    <circle fill="white" cx="0" cy="100" r="100" />
+    <circle fill="white" cx="200" cy="100" r="100" />
+  </svg>
+
+<svg viewBox="0 0 100 100" preserveAspectRatio="none">
+<polygon class="svg--sm" fill="white" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100"/>
+<polygon class="svg--lg" fill="white" points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,100" />
+</svg> */
+}
 
 class Portfolio extends Component {
   render() {
@@ -22,48 +37,12 @@ class Portfolio extends Component {
         <Header />
         <About />
         <section className="projects" id="projects">
+          <h1 className="projects-lable">Projects</h1>
           <ProjectRight data={acceptableLosses} />
           <ProjectLeft data={gameStrat} />
           <ProjectRight data={cartasContraEspañol} />
         </section>
         <Footer />
-
-        {/* <section className="project">
-            <div className="project-img">
-              <img
-                className="project-thumbnail"
-                src={require('../assets/gameStrat/GS-logo.png')}
-                alt="GameStrat logo"
-              />
-            </div>
-            <article className="project-info">
-              <div className="project-details">
-                <p className="project-title">Cartas Contra Español</p>
-                <div className="tech-stack">
-                  <SVG filter={'Cartas Contra Español'} />
-                </div>
-                <hr className="description-divider" />
-                <p className="description">
-                  This XXXXXXXXXX XXXXX XXXXXXXX XXX X XXXXXXX XXXXXXX XXX app allows users to add strategies to their
-                  favorite games.
-                </p>
-              </div>
-              <div className="project-links">
-                <a className="link" href="https://sr-app-sj.herokuapp.com/">
-                  Live App
-                </a>
-                <div>
-                  <a className="link" href="https://github.com/BuddhaL1T3/spaced-rep-client-sonya-jonathan">
-                    Client
-                  </a>
-                  <span> | </span>
-                  <a className="link" href="https://github.com/BuddhaL1T3/spaced-rep-server-sonya-jonathan">
-                    Server
-                  </a>
-                </div>
-              </div>
-            </article>
-          </section> */}
       </React.Fragment>
     );
   }

@@ -6,9 +6,10 @@ class ProjectRight extends Component {
   render() {
     const { title, img, description, links } = this.props.data;
     return (
-      <section className="project">
+      <section className="project right">
         <div className="project-img">
-          <img className="project-thumbnail" src={img.src} alt={img.alt} />
+          <img className="project-thumbnail" src={img.desktop.src} alt={img.desktop.alt} />
+          {/* <img className="project-thumbnail" src={img.mobile.src} alt={img.mobile.alt} /> */}
         </div>
         <article className="project-info">
           <div className="project-details">

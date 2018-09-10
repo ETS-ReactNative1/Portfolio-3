@@ -7,15 +7,19 @@ class About extends Component {
     return (
       <section className="about-me" id="about">
         <article>
-          <h3>Who I Am:</h3>
-          <p>I am me...</p>
+          <h2>Who I Am:</h2>
+          <p>
+            <strong>I am me...</strong>
+          </p>
         </article>
         <div>
-          <h3>My Skills</h3>
+          <h2>My Skills</h2>
           <div className="skills">
             <SVG filter={'Skills'} />
+            <span>
+              <h2>and continuing to expand...</h2>
+            </span>
           </div>
-          <p>and continuing to expand...</p>
         </div>
       </section>
     );
