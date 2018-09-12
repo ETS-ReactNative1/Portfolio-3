@@ -5,21 +5,26 @@ import SVG from './SVG';
 class About extends Component {
   render() {
     return (
-      <section className="about-me" id="about">
+      <section className="about-me">
+        <h2 className="label" id="about">
+          About Me
+        </h2>
         <article>
-          <h2>Who I Am:</h2>
-          <p>
-            <strong>I am me...</strong>
+          <p className="text">
+            <strong>
+              Hello, I'm Jonathan Riggs, a fullstack web developer mastering the MERN stack. Building elegant solutions
+              to unwieldy problems is what fuels my creativity and drives me to produce clean and high performing
+              applications. My interests in programming revolve around application performance and efficiency. Feel free
+              to comb through my ongoing projects.
+            </strong>
           </p>
         </article>
         <div>
           <h2>My Skills</h2>
-          <div className="skills">
-            <SVG filter={'Skills'} />
-            <span>
-              <h2>and continuing to expand...</h2>
-            </span>
-          </div>
+          <SVG filter={'Skills'} />
+          <p className="text">
+            <strong>and continuing to expand...</strong>
+          </p>
         </div>
       </section>
     );

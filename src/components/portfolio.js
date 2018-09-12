@@ -36,11 +36,17 @@ class Portfolio extends Component {
       <React.Fragment>
         <Header />
         <About />
-        <section className="projects" id="projects">
-          <h1 className="projects-lable">Projects</h1>
+        <section className="projects">
+          <h2 className="label" id="projects">
+            Projects
+          </h2>
+          <div className="divider top" />
           <ProjectRight data={acceptableLosses} />
+          <div className="divider" />
           <ProjectLeft data={gameStrat} />
+          <div className="divider" />
           <ProjectRight data={cartasContraEspañol} />
+          <div className="divider bottom" />
         </section>
         <Footer />
       </React.Fragment>

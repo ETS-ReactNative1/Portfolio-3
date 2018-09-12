@@ -24,7 +24,7 @@ const gameStrat = {
   title: 'GameStrat',
   img: {
     desktop: {
-      src: require('../assets/gameStrat/GS-logo.png'),
+      src: require('../assets/acceptableLosses/dashboard-D.png'),
       alt: 'GameStrat logo'
     },
     mobile: {
