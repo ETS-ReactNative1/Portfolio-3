@@ -15,7 +15,7 @@ class ProjectRight extends Component {
           <div className="project-details">
             <p className="project-title">{title}</p>
             <div className="tech-stack">
-              <SVG filter={'GameStrat'} />
+              <SVG filter={title} />
             </div>
             <hr className="description-divider" />
             <p className="description">{description}</p>
