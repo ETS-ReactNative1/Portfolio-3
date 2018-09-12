@@ -12,7 +12,6 @@ class Header extends Component {
             <h2> | Full Stack Developer</h2>
           </div>
         </div>
-
         <nav className="header-links">
           <Scrollchor to="#about">About</Scrollchor> |
           <Scrollchor to="#projects" animate={{ duration: 800 }}>
@@ -23,18 +22,6 @@ class Header extends Component {
             Contact
           </Scrollchor>
         </nav>
-
-        {/* <svg className="header-trans" viewBox="0 0 200 100" preserveAspectRatio="none">
-          <circle fill="#A8A8A8" cx="0" cy="100" r="100" />
-          <circle fill="#A8A8A8" cx="200" cy="100" r="100" />
-        </svg> */}
-        {/* <svg className="header-trans" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <polygon fill="#A8A8A8" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100" />
-          <polygon
-            fill="#A8A8A8"
-            points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,100"
-          />
-        </svg> */}
       </header>
     );
   }

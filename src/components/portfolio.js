@@ -25,9 +25,9 @@ class Portfolio extends Component {
         <Header />
         <About />
         <section className="projects">
-          <h2 className="label" id="projects">
-            Projects
-          </h2>
+          <h1 className="label" id="projects">
+            PROJECTS
+          </h1>
           <div className="divider top" />
           <ProjectRight data={acceptableLosses} />
           <div className="divider" />

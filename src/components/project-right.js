@@ -13,7 +13,7 @@ class ProjectRight extends Component {
         </div>
         <article className="project-info">
           <div className="project-details">
-            <p className="project-title">{title}</p>
+            <h1 className="project-title">{title}</h1>
             <div className="tech-stack">
               <SVG filter={title} />
             </div>

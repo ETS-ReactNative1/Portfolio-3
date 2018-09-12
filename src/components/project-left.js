@@ -4,12 +4,11 @@ import SVG from './SVG';
 class ProjectLeft extends Component {
   render() {
     const { title, img, description, links } = this.props.data;
-    console.log(this.props);
     return (
       <section className="project left">
         <article className="project-info">
           <div className="project-details">
-            <p className="project-title">{title}</p>
+            <h1 className="project-title">{title}</h1>
             <div className="tech-stack">
               <SVG filter={title} />
             </div>
