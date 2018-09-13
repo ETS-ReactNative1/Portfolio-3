@@ -15,13 +15,13 @@ class Footer extends Component {
           <a href="mailto:jmriggs75@gmail.com">
             <FontAwesomeIcon icon="envelope" size="4x" />
           </a>
-          <a target="_blank" href="https://github.com/BuddhaL1T3">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/BuddhaL1T3">
             <FontAwesomeIcon icon={['fab', 'github']} size="4x" />
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/jonathan-riggs-34898476/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jonathan-riggs-34898476/">
             <FontAwesomeIcon icon={['fab', 'linkedin']} size="4x" />
           </a>
-          <a target="_blank" href={require('../assets/resume.pdf')}>
+          <a target="_blank" rel="noopener noreferrer" href={require('../assets/resume.pdf')}>
             <FontAwesomeIcon icon="file-pdf" size="4x" />
           </a>
         </section>
