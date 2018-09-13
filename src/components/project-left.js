@@ -31,8 +31,7 @@ class ProjectLeft extends Component {
           </div>
         </article>
         <div className="project-img">
-          <img className="project-thumbnail" src={img.desktop.src} alt={img.desktop.alt} />
-          {/* <img className="project-thumbnail" src={img.mobile.src} alt={img.mobile.alt} /> */}
+          <img className="project-thumbnail" src={img.src} alt={img.alt} />
         </div>
       </section>
     );

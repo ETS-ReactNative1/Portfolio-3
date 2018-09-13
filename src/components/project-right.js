@@ -8,8 +8,7 @@ class ProjectRight extends Component {
     return (
       <section className="project right">
         <div className="project-img">
-          <img className="project-thumbnail" src={img.desktop.src} alt={img.desktop.alt} />
-          {/* <img className="project-thumbnail" src={img.mobile.src} alt={img.mobile.alt} /> */}
+          <img className="project-thumbnail" src={img.src} alt={img.alt} />
         </div>
         <article className="project-info">
           <div className="project-details">

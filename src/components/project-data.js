@@ -3,14 +3,8 @@
 const acceptableLosses = {
   title: 'Acceptable Losses',
   img: {
-    desktop: {
-      src: require('../assets/acceptableLosses/dashboard-D.png'),
-      alt: 'Desktop View of the Dashboard'
-    },
-    mobile: {
-      src: require('../assets/acceptableLosses/dashboard-M.png'),
-      alt: 'Mobile View of the Dashboard'
-    }
+    src: require('../assets/acceptableLosses/dashboard-D.png'),
+    alt: 'Desktop View of the Dashboard'
   },
   description:
     "With our app, you can keep track of all of your bills, see due dates of upcoming bills, click a button to visit your bill's payment website and mark them as paid. Staying on top of your expenses is as easy as hitting a button!",
@@ -24,14 +18,8 @@ const acceptableLosses = {
 const gameStrat = {
   title: 'GameStrat',
   img: {
-    desktop: {
-      src: require('../assets/acceptableLosses/dashboard-D.png'),
-      alt: 'GameStrat logo'
-    },
-    mobile: {
-      src: require('../assets/acceptableLosses/dashboard-M.png'),
-      alt: 'Mobile View of the Dashboard'
-    }
+    src: require('../assets/gameStrat/games.JPG'),
+    alt: 'games search page'
   },
   description:
     'GameStrat is designed to allow fellow gamers to share their tricks and hints on how to overcome any and all obstacles that you might come up against. If you register and become a user, you will be able to contribute to the cause. You will be able to add strategies to your favorite games as well as manage and keep track of all of your strategies.',
@@ -45,14 +33,8 @@ const gameStrat = {
 const cartasContraEspañol = {
   title: 'Cartas Contra Español',
   img: {
-    desktop: {
-      src: require('../assets/acceptableLosses/dashboard-D.png'),
-      alt: 'Desktop View of the Dashboard'
-    },
-    mobile: {
-      src: require('../assets/acceptableLosses/dashboard-M.png'),
-      alt: 'Mobile View of the Dashboard'
-    }
+    src: require('../assets/cartasContraEspañol/questionPage.JPG'),
+    alt: 'Desktop View of the Dashboard'
   },
   description:
     'Cartas Contra Español is a language learning app that uses spaced repetition. If the user translates the word correctly it will be pushed further down the list. If they get the translation wrong, they will see the word more often until they answer it correctly.',
