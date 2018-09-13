@@ -8,11 +8,6 @@ import Footer from './footer';
 
 import { acceptableLosses, gameStrat, cartasContraEspañol } from './project-data';
 
-// import '../styles/work.css';
-
-// to do...
-// ??
-
 class Portfolio extends Component {
   render() {
     return (
