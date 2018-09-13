@@ -11,12 +11,7 @@ import { acceptableLosses, gameStrat, cartasContraEspañol } from './project-dat
 // import '../styles/work.css';
 
 // to do...
-// create a hamburger menu for the links for mobile/tweak header layout for mobile
-// make footer svgs larger
-// upload images for each project and get a description
-// color/theme/segmentation
-
-// hover effect on project?
+// ??
 
 class Portfolio extends Component {
   render() {
@@ -28,13 +23,9 @@ class Portfolio extends Component {
           <h1 className="label" id="projects">
             PROJECTS
           </h1>
-          <div className="divider top" />
           <ProjectRight data={acceptableLosses} />
-          <div className="divider" />
           <ProjectLeft data={gameStrat} />
-          <div className="divider" />
           <ProjectRight data={cartasContraEspañol} />
-          <div className="divider bottom" />
         </section>
         <Footer />
       </React.Fragment>
