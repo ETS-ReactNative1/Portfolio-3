@@ -15,10 +15,10 @@ class Footer extends Component {
           <a href="mailto:jmriggs75@gmail.com">
             <FontAwesomeIcon icon="envelope" size="4x" />
           </a>
-          <a href="https://github.com/BuddhaL1T3">
+          <a target="_blank" href="https://github.com/BuddhaL1T3">
             <FontAwesomeIcon icon={['fab', 'github']} size="4x" />
           </a>
-          <a href="https://www.linkedin.com/in/jonathan-riggs-34898476/">
+          <a target="_blank" href="https://www.linkedin.com/in/jonathan-riggs-34898476/">
             <FontAwesomeIcon icon={['fab', 'linkedin']} size="4x" />
           </a>
           <a target="_blank" href={require('../assets/resume.pdf')}>
