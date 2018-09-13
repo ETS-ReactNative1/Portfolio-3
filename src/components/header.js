@@ -14,6 +14,10 @@ class Header extends Component {
         </div>
         <nav className="header-links">
           <Scrollchor to="#about">About</Scrollchor> |
+          <Scrollchor to="#skills" animate={{ duration: 600 }}>
+            Skills
+          </Scrollchor>
+          |
           <Scrollchor to="#projects" animate={{ duration: 800 }}>
             Projects
           </Scrollchor>
