@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faLinkedin, faEnvelope, faGithub);
+library.add(faLinkedin, faEnvelope, faGithub, faFilePdf);
 
 class Footer extends Component {
   render() {
@@ -20,6 +20,9 @@ class Footer extends Component {
           </a>
           <a href="https://www.linkedin.com/in/jonathan-riggs-34898476/">
             <FontAwesomeIcon icon={['fab', 'linkedin']} size="4x" />
+          </a>
+          <a target="_blank" href={require('../assets/resume.pdf')}>
+            <FontAwesomeIcon icon="file-pdf" size="4x" />
           </a>
         </section>
       </footer>
