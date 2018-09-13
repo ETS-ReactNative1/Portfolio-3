@@ -15,8 +15,12 @@ class About extends Component {
             <strong>
               Hello, I'm Jonathan Riggs, a fullstack web developer mastering the MERN stack. Building elegant solutions
               to unwieldy problems is what fuels my creativity and drives me to produce clean and high performing
-              applications. My interests in programming revolve around application performance and efficiency. Feel free
-              to comb through my ongoing projects.
+              applications. My interests in programming revolve around application performance and efficiency. My
+              objective is simply to be the best developer I can be and continue to contribute to the tech industry by
+              learning from seasoned developers, remaining humble, and continuously making strides to learn all that I
+              can about development. As a firm believer that teamwork is the secret that makes common people achieve
+              uncommon results, I can hardly wait to bring all that I have to the table. Feel free to comb through my
+              ongoing projects and let me know what you think.
             </strong>
           </article>
         </section>
