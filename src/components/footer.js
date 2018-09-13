@@ -21,7 +21,11 @@ class Footer extends Component {
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jonathan-riggs-34898476/">
             <FontAwesomeIcon icon={['fab', 'linkedin']} size="4x" />
           </a>
-          <a target="_blank" rel="noopener noreferrer" href={require('../assets/resume.pdf')}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://docs.google.com/document/d/1G7kycQHbakF1DtBzlFg1a_TKWoG_Pihc2yEhLEtEgdI/edit?usp=sharing"
+          >
             <FontAwesomeIcon icon="file-pdf" size="4x" />
           </a>
         </section>
