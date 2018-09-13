@@ -28,7 +28,7 @@ a:hover,
   align-items: center;
   justify-content: space-between;
   padding: 50px 60px 150px 60px;
-  height: 350px;
+  height: auto;
   background-image: linear-gradient( #1848C0, #000060);
 }
 
@@ -39,8 +39,16 @@ a:hover,
   justify-content: center;
 }
 
-.header-title{
+.header-title {
   flex: 1 auto;
+}
+
+.header-title h1 {
+  font-size: 72px
+}
+
+.header-title h2 {
+  font-size: 48px
 }
 
 .logo {
@@ -54,10 +62,13 @@ a:hover,
  flex-flow: row;
  flex: 1 1 auto;
  justify-content: space-around;
+ font-size: 28px;
+ margin-top: 50px;
  text-decoration: none;
 }
 
 .label {
+  font-size: 72px;
   margin-top: 100px;
   color: #000060;
 }
@@ -86,7 +97,7 @@ a:hover,
   color: #000060;
 }
 
-.text strong{
+.text strong {
   font-size: 22px;
   font-weight: 300;
   color: #000060;
@@ -171,8 +182,6 @@ h3 {
   width: 100%;
 }
 
-
-
 .project-img {
   flex: 5 1 auto;
   width:70%;
@@ -253,11 +262,6 @@ h3 {
   font-size: 48px;
 }
 
-/* .phone {
-  font-size: 1.5em;
-  font-weight: 600px;
-} */
-
 .contact-info {
   flex: 1 1 auto;
   display: flex;
@@ -294,9 +298,10 @@ h3 {
   }
 }
 
-@media all and (max-width: 525px) {
-  .hamburger {
-    display: block;
+@media all and (max-width: 815px) {
+
+  .header-bar {
+    height: auto;
   }
 
   .header-title-box {
@@ -312,8 +317,34 @@ h3 {
   .header-links {
     margin-top: 30px;
   }
+}
+
+@media all and (max-width: 525px) {
 
   .header-bar {
     height: auto;
-  } 
+  }
+
+  .header-title-box {
+    width: auto;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .header-title {
+    text-align: center;
+  }
+
+  .header-title h1 {
+    font-size: 22px;
+  }
+
+  .header-title h2 {
+    font-size: 16px;
+  }
+
+  .header-links {
+    font-size: 100%;
+    margin-top: 30px;
+  }
 }
