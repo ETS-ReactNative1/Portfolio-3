@@ -330,8 +330,27 @@ a:hover {
     margin-top: 30px;
   }
 
+  .about-me-pic {
+    width: 80%;
+  }
+
+  .tech-stack .svgs {
+    margin: 3px;
+  }
+
   .label {
     font-size: 28px;
   }
+
+  .project {
+    padding: 25vh 0;
+  }
+  .project-info {
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+    width: auto;
+  }
+
 
 }
