@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #D8D8F0;
+  color: white;
   margin: 0 10px;
 }
 
@@ -31,7 +31,7 @@ a:hover {
 .header-bar {
   position: relative;
   display: flex;
-  color: #D8D8F0;
+  color: white;
   flex-flow: column wrap;
   align-items: center;
   justify-content: space-between;
@@ -88,7 +88,7 @@ a:hover {
   text-align: center;
   margin-top: -100px;
   clip-path: polygon(0 0,50% 5vw,100% 0,100% calc(100% - 5vw),50% 100%, 0 calc(100% - 5vw));
-  background-color: #A8A8A8;
+  background-color: white;
 }
 
 .about-me-pic {
@@ -103,6 +103,7 @@ a:hover {
 
 .text {
   margin: 50px 0;
+  padding-bottom: 50px;
   color: #000060;
 }
 
@@ -119,7 +120,7 @@ a:hover {
   margin: -100px 0;
   padding-bottom: 200px;
   clip-path: polygon(0 0,50% 5vw,100% 0,100% calc(100% - 5vw),50% 100%, 0 calc(100% - 5vw));
-  background-color: #D8D8F0;
+  background-color: lightgray;
 
 }
 
@@ -175,12 +176,12 @@ a:hover {
 }
 
 .right {
-  background-color: #A8A8A8;
+  background-color: white;
 
 }
 
 .left {
-  background-color: #D8D8F0;
+  background-color: lightgray;
 }
 
 .project-img {
@@ -230,6 +231,11 @@ a:hover {
   text-align: center;
 }
 
+.project-links .link:hover{
+  color: #1848C0;
+}
+
+
 .project-thumbnail {
   width: 95%;
 }
@@ -248,7 +254,7 @@ a:hover {
   align-items: center; 
   text-align: center;
   background-color: #000060;
-  color:#D8D8F0;
+  color:white;
   margin-top: -100px;
   padding: 100px 0 25px 0;
   clip-path: polygon(0 0,50% 5vw,100% 0,100% 100%, 0 100%);
@@ -323,6 +329,10 @@ a:hover {
 
   .header-links {
     margin-top: 30px;
+  }
+
+  .skills {
+    margin-top: 50px;
   }
 
   .skills .svgs {

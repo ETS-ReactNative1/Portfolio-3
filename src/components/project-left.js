@@ -16,15 +16,15 @@ class ProjectLeft extends Component {
             <p className="description">{description}</p>
           </div>
           <div className="project-links">
-            <a className="link" href={links.live}>
+            <a target="_blank" rel="noopener noreferrer" className="link" href={links.live}>
               Live App
             </a>
             <div>
-              <a className="link" href={links.client}>
+              <a target="_blank" rel="noopener noreferrer" className="link" href={links.client}>
                 Client
               </a>
               <span> | </span>
-              <a className="link" href={links.server}>
+              <a target="_blank" rel="noopener noreferrer" className="link" href={links.server}>
                 Server
               </a>
             </div>

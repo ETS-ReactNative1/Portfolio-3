@@ -30,6 +30,10 @@ class Portfolio extends Component {
 
 export default Portfolio;
 
+//todo
+// white on title and light sections and lighter gray on gray section
+// flip flop the gray and white sections
+
 // {
 //  <svg viewBox="0 0 200 100" preserveAspectRatio="none">
 //    <circle fill="white" cx="0" cy="100" r="100" />

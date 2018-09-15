@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 
-// to do...
-// create a hamburger menu for the links for mobile
-// tweak header layout for mobile
-
 class SVG extends Component {
   render() {
     const { filter } = this.props;
