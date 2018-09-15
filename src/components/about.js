@@ -10,7 +10,7 @@ class About extends Component {
           <h2 className="label" id="about">
             ABOUT ME
           </h2>
-          <img className="about-me-pic" src={require('../assets/about-me.png')} alt="Jonathan Riggs headshot" />
+          <img className="about-me-pic" src={require('../assets/Profile.jpg')} alt="Jonathan Riggs headshot" />
           <article className="text">
             <strong>
               Hello, I'm Jonathan Riggs, a fullstack web developer mastering the MERN stack. Building elegant solutions
