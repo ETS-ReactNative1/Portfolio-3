@@ -13,7 +13,7 @@ class About extends Component {
           <img className="about-me-pic" src={require('../assets/Profile.jpg')} alt="Jonathan Riggs headshot" />
           <article className="text">
             <strong>
-              Hello, I'm Jonathan Riggs, a fullstack web developer mastering the MERN stack. Building elegant solutions
+              Hello, I'm Jonathan Riggs, a full stack web developer mastering the MERN stack. Building elegant solutions
               to unwieldy problems is what fuels my creativity and drives me to produce clean and high performing
               applications. My interests in programming revolve around application performance and efficiency. My
               objective is simply to be the best developer I can be and continue to contribute to the tech industry by
