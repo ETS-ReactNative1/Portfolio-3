@@ -27,7 +27,7 @@ class Footer extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1BrEL-ZN5MFuSC-y9VwIE5RpkgShf9gJK/view?usp=sharing"
+              href="https://drive.google.com/file/d/1baqaUo9nAvj1UiAhgvz6L5B2Q_Ir4a62/view?usp=sharing"
             >
               <FontAwesomeIcon icon="file-pdf" size="4x" />
             </a>
