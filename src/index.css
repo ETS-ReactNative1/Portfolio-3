@@ -77,7 +77,7 @@ a:hover {
 
 .label {
   font-size: 72px;
-  margin-top: 30px;
+  margin: 30px;
   color: #000060;
   z-index: 99;
 }
@@ -102,15 +102,22 @@ a:hover {
 }
 
 .text {
-  margin: 50px 0;
+  max-width: 600px;
+  margin: 50px auto;
   padding-bottom: 50px;
-  color: #000060;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .text strong {
   font-size: 22px;
   font-weight: 300;
   color: #000060;
+  line-height: 2;
+}
+
+.end-skills {
+  text-align: center;
 }
 
 .skills-section {
@@ -135,6 +142,28 @@ a:hover {
   height: 100px;
   max-width: 100px;
   margin: 50px;
+}
+
+.svg-with-label {
+  display: flex;
+  flex-flow: column;
+}
+
+.svg-with-label span {
+  font-size: 22px;
+  font-weight: 300;
+  color: #000060;
+  margin-bottom: -50px;
+}
+
+.techs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.tech-stack .svg-with-label span {
+  display: none;
 }
 
 .svgs {

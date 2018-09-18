@@ -29,7 +29,7 @@ class About extends Component {
             MY SKILLS
           </h2>
           <SVG filter={'Skills'} />
-          <p className="text">
+          <p className="text end-skills">
             <strong>and continuing to expand...</strong>
           </p>
         </div>
