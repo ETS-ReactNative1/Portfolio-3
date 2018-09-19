@@ -252,6 +252,7 @@ a:hover {
   margin: 0 5px 30px 5px;
   color: #000060;
   font-size: 22px;
+  text-align: justify;
 }
 
 .project-links {
