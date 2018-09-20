@@ -23,7 +23,7 @@ class SVG extends Component {
 
     HTML = (
       <div className="svg-with-label">
-        <span>HTML</span>
+        <p>HTML</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path fill="#E44D26" d="M19.037 113.876l-10.005-112.215h109.936l-10.016 112.198-45.019 12.48z" />
           <path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878h-44.937z" />
@@ -40,7 +40,7 @@ class SVG extends Component {
     );
     CSSSVG = (
       <div className="svg-with-label">
-        <span>CSS</span>
+        <p>CSS</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path
             fill="#1572B6"
@@ -68,7 +68,7 @@ class SVG extends Component {
     );
     JS = (
       <div className="svg-with-label">
-        <span>JavaScript</span>
+        <p>JavaScript</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185h-125.184z" />
           <path
@@ -80,7 +80,7 @@ class SVG extends Component {
     );
     NodeJS = (
       <div className="svg-with-label">
-        <span>Node.js</span>
+        <p>Node.js</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path
             fill="#83CD29"
@@ -91,7 +91,7 @@ class SVG extends Component {
     );
     Express = (
       <div className="svg-with-label">
-        <span>Express</span>
+        <p>Express</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path d="M126.67,98.44c-4.56,1.16-7.38.05-9.91-3.75-5.68-8.51-11.95-16.63-18-24.9-.78-1.07-1.59-2.12-2.6-3.45C89,76,81.85,85.2,75.14,94.77c-2.4,3.42-4.92,4.91-9.4,3.7L92.66,62.34,67.6,29.71c4.31-.84,7.29-.41,9.93,3.45,5.83,8.52,12.26,16.63,18.67,25.21C102.65,49.82,109,41.7,115,33.26c2.41-3.42,5-4.72,9.33-3.46-3.28,4.35-6.49,8.63-9.72,12.88-4.36,5.73-8.64,11.53-13.16,17.14-1.61,2-1.35,3.3.09,5.19C109.9,76,118.16,87.1,126.67,98.44Z" />
           <path d="M1.33,61.74c.72-3.61,1.2-7.29,2.2-10.83,6-21.43,30.6-30.34,47.5-17.06C60.93,41.64,63.39,52.62,62.9,65H7.1c-.84,22.21,15.15,35.62,35.53,28.78,7.15-2.4,11.36-8,13.47-15,1.07-3.51,2.84-4.06,6.14-3.06-1.69,8.76-5.52,16.08-13.52,20.66-12,6.86-29.13,4.64-38.14-4.89C5.26,85.89,3,78.92,2,71.39c-.15-1.2-.46-2.38-.7-3.57Q1.33,64.78,1.33,61.74ZM7.2,60.25H57.63c-.33-16.06-10.33-27.47-24-27.57C18.63,32.56,7.85,43.7,7.2,60.25Z" />
@@ -100,7 +100,7 @@ class SVG extends Component {
     );
     ReactSVG = (
       <div className="svg-with-label">
-        <span>React</span>
+        <p>React</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path
             fill="#00bfff"
@@ -111,7 +111,7 @@ class SVG extends Component {
     );
     Redux = (
       <div className="svg-with-label">
-        <span>Redux</span>
+        <p>Redux</p>
         <svg className="svgs" aria-hidden="true" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
           <path
             d="M16.633 16.504c.869-.075 1.543-.84 1.499-1.754-.046-.914-.795-1.648-1.708-1.648h-.061a1.71 1.71 0 0 0-1.648 1.769c.03.479.226.869.494 1.153-1.048 2.038-2.621 3.536-5.004 4.795-1.603.838-3.296 1.154-4.944.929-1.378-.194-2.456-.81-3.116-1.798-.988-1.499-1.078-3.116-.255-4.734.601-1.169 1.499-2.023 2.099-2.443a9.96 9.96 0 0 1-.42-1.542C-.867 14.408-.416 18.752.932 20.805c1.004 1.498 3.057 2.456 5.304 2.456.599 0 1.229-.044 1.843-.194 3.896-.749 6.847-3.086 8.54-6.532l.014-.031z"
@@ -130,7 +130,7 @@ class SVG extends Component {
     );
     MongoDB = (
       <div className="svg-with-label">
-        <span>MongoDB</span>
+        <p>MongoDB</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path
             fillRule="evenodd"
@@ -233,7 +233,7 @@ class SVG extends Component {
     );
     JQuery = (
       <div className="svg-with-label">
-        <span>jQuery</span>
+        <p>jQuery</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path
             fill="#0868AC"
@@ -244,7 +244,7 @@ class SVG extends Component {
     );
     Mocha = (
       <div className="svg-with-label">
-        <span>Mocha</span>
+        <p>Mocha</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path
             fill="#934814"
@@ -266,7 +266,7 @@ class SVG extends Component {
     );
     Git = (
       <div className="svg-with-label">
-        <span>Git</span>
+        <p>Git</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path
             fill="#F34F29"
@@ -277,7 +277,7 @@ class SVG extends Component {
     );
     Heroku = (
       <div className="svg-with-label">
-        <span>Heroku</span>
+        <p>Heroku</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path
             fill="#6567a5"
@@ -288,7 +288,7 @@ class SVG extends Component {
     );
     GitHub = (
       <div className="svg-with-label">
-        <span>GitHub</span>
+        <p>GitHub</p>
         <svg className="svgs" viewBox="0 0 128 128">
           <path
             fillRule="evenodd"
@@ -301,7 +301,7 @@ class SVG extends Component {
     );
     ES6 = (
       <div className="svg-with-label">
-        <span>ES6</span>
+        <p>ES6</p>
         <svg className="svgs" viewBox="0 0 483 512">
           <path
             fill="#ECD732"
@@ -337,7 +337,7 @@ class SVG extends Component {
 
     TravisCI = (
       <div className="svg-with-label">
-        <span>TravisCI</span>
+        <p>TravisCI</p>
         <svg className="svgs" viewBox="0 0 200 200">
           <path
             fill="#CB3349"
@@ -511,7 +511,7 @@ class SVG extends Component {
     );
     NPM = (
       <div className="svg-with-label">
-        <span>NPM</span>
+        <p>NPM</p>
         <svg className="svgs" viewBox="0 0 18 7">
           <path
             fill="#CB3837"

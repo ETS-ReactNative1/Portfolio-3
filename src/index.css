@@ -140,8 +140,8 @@ a:hover {
 
 .skills .svgs {
   height: 100px;
-  max-width: 100px;
-  margin: 50px;
+  width: 100px;
+  margin: 20px 50px 50px 50px;
 }
 
 .svg-with-label {
@@ -366,9 +366,13 @@ a:hover {
   }
 
   .skills .svgs {
-    height: 40px;
+    height: 70px;
     max-width: 40px;
-    margin: 10px;
+    margin: 0 20px 30px 20px;
+  }
+
+  .svg-with-label {
+    margin: auto;
   }
 }
 
