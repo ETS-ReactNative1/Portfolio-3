@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import SVG from './SVG';
+import SVG from "./SVG";
 
 class ProjectRight extends Component {
   render() {
@@ -20,18 +20,28 @@ class ProjectRight extends Component {
             <p className="description">{description}</p>
           </div>
           <div className="project-links">
-            <a target="_blank" rel="noopener noreferrer" className="link" href={links.live}>
+            {/* <a target="_blank" rel="noopener noreferrer" className="link" href={links.live}>
               Live App
             </a>
-            <div>
-              <a target="_blank" rel="noopener noreferrer" className="link" href={links.client}>
-                Client
-              </a>
-              <span> | </span>
-              <a target="_blank" rel="noopener noreferrer" className="link" href={links.server}>
-                Server
-              </a>
-            </div>
+            <div> */}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+              href={links.client}
+            >
+              Client
+            </a>
+            <span> | </span>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+              href={links.server}
+            >
+              Server
+            </a>
+            {/* </div> */}
           </div>
         </article>
       </section>
