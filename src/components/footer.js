@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import React, { Component } from "react";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 library.add(faLinkedin, faEnvelope, faGithub, faFilePdf);
 
@@ -16,18 +16,26 @@ class Footer extends Component {
             <a href="mailto:jmriggs75@gmail.com">
               <FontAwesomeIcon icon="envelope" size="4x" />
             </a>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/BuddhaL1T3">
-              <FontAwesomeIcon icon={['fab', 'github']} size="4x" />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/BuddhaL1T3"
+            >
+              <FontAwesomeIcon icon={["fab", "github"]} size="4x" />
             </a>
           </div>
           <div className="contact-info-right">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jonathan-riggs-34898476/">
-              <FontAwesomeIcon icon={['fab', 'linkedin']} size="4x" />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/jonathan-riggs-34898476/"
+            >
+              <FontAwesomeIcon icon={["fab", "linkedin"]} size="4x" />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1v47vkAcnYCNe2MI39fx6ueRPm5iBO920/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MP6Vo37OBEyDsnVi_Lf-OOp2X37GlOaM/view?usp=sharing"
             >
               <FontAwesomeIcon icon="file-pdf" size="4x" />
             </a>

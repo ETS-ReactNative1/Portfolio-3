@@ -49,7 +49,7 @@ a:hover {
 
 .header-title {
   flex: 1 auto;
-  text-align: "center";
+  text-align: center;
 }
 
 .header-title h1 {
@@ -353,7 +353,7 @@ a:hover {
   }
 
   .header-title {
-    text-align: "center";
+    text-align: center;
   }
 
   .project-info {
